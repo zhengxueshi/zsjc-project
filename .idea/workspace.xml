@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33d8e0db-a18f-4d5f-af9b-e26ad59a0d98" name="Default Changelist" comment="" />
+    <list default="true" id="33d8e0db-a18f-4d5f-af9b-e26ad59a0d98" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zsjc-service/src/main/java/cn/com/zsjc/service/user/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zsjc-service/src/test/java/cn/com/zsjc/service/HashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/zsjc-service/src/test/java/cn/com/zsjc/service/HashMapTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zsjc-web/target/" />
     <ignored path="$PROJECT_DIR$/zsjc-dao/target/" />
@@ -19,35 +24,36 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.103" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.82" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cmd" value="1" />
-          <entry key="java" value="9" />
+          <entry key="java" value="10" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="10" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="107" />
+          <entry key="java" value="158" />
           <entry key="xml" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="107" />
+          <entry key="JAVA" value="158" />
           <entry key="XML" value="35" />
         </counts>
       </usages-collector>
@@ -91,14 +97,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zsjc-service/src/test/java/cn/com/zsjc/service/HashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="208">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zsjc-service/src/main/java/cn/com/zsjc/service/user/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -144,6 +159,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -154,6 +172,7 @@
         <option value="$PROJECT_DIR$/zsjc-dao/pom.xml" />
         <option value="$PROJECT_DIR$/zsjc-api/src/main/java/cn/com/zsjc/api/dept/dto/DeptDTO.java" />
         <option value="$PROJECT_DIR$/zsjc-service/src/test/java/cn/com/zsjc/service/HashMapTest.java" />
+        <option value="$PROJECT_DIR$/zsjc-service/src/main/java/cn/com/zsjc/service/user/UserService.java" />
       </list>
     </option>
   </component>
@@ -172,19 +191,18 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="747" />
-    <option name="y" value="111" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="370" />
+    <option name="y" value="561" />
     <option name="width" value="867" />
     <option name="height" value="462" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,20 +213,92 @@
             <path>
               <item name="zsjc-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="zsjc-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zsjc-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjc-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjc-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zsjc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjc-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjc-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zsjc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjc-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjc-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zsjc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjc-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjc-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zsjc-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjc-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjc-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zsjc-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjc-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjc-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zsjc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjc-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjc-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zsjc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjc-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjc-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zsjc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjc-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjc-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="zsjc-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zsjc-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zsjc-parent" type="462c0819:PsiDirectoryNode" />
               <item name="zsjc-web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575604758818" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575624845255" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -310,6 +400,7 @@
       <workItem from="1575335261715" duration="2441000" />
       <workItem from="1575518084578" duration="4839000" />
       <workItem from="1575594164932" duration="1761000" />
+      <workItem from="1575622796936" duration="1959000" />
     </task>
     <servers />
   </component>
@@ -319,12 +410,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14260000" />
+    <option name="totallyTimeSpent" value="16219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3144705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31932095" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -345,7 +436,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info anchor="bottom" id="Messages" order="15" />
@@ -403,6 +494,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/software/java/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="624" column="12" selection-start-line="624" selection-start-column="12" selection-end-line="624" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zsjc-web/src/main/java/cn/com/zsjc/web/ZsjcWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -455,24 +553,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/java/jdk1.8.0_181/src.zip!/java/util/HashMap.java">
+    <entry file="file://$PROJECT_DIR$/zsjc-service/src/test/java/cn/com/zsjc/service/HashMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="624" column="12" selection-start-line="624" selection-start-column="12" selection-end-line="624" selection-end-column="12" />
+        <state relative-caret-position="208">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
-            <element signature="e#19327#19328#0" expanded="true" />
-            <element signature="e#19410#19411#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zsjc-service/src/test/java/cn/com/zsjc/service/HashMapTest.java">
+    <entry file="file://$PROJECT_DIR$/zsjc-service/src/main/java/cn/com/zsjc/service/user/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

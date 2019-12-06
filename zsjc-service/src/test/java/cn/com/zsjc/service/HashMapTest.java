@@ -37,6 +37,7 @@ class HashMapThread extends Thread {
             map.put(ai.get(), ai.get());
             System.out.println(Thread.currentThread().getName()+"==="+ai.get());
             ai.incrementAndGet();
+
         }
     }
 }
